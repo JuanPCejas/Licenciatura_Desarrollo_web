@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mutimedia</title>
+</head>
+<body>
+    <h1>
+        multimedia
+    </h1>
+    <h2>
+        <img src="direccion" alt="texto_alternativo">
+    </h2>
+    <img src="direccion" alt="texto_alternativo">
+    <hr>
+    <h2>
+        <audio src="./assets/audios/sonido-descargado.mp3" controls></audio><!-- Cuando agrego ./ en la etiqueta audio me va llevadando a la carpeta previamente creada donde se encuentra mi audio. Para que aparezca en mi pagina debo agregar atributo controls -->
+    </h2>
+    <hr>
+    <h2>video</h2>
+    <video src="./assets/Videos/video-playa.mp4" controls></video><!-- funciona igual que audio, tambien debo agregar atributo con control  -->
+    <h2>iframe</h2><!-- es para cargar una dirección dentro de otra -->
+    <iframe src="https://colorhunt.co/" frameborder="0" width="500px" height="500px"></iframe> <!--en atributo src cargo la dirección de la pagina y luego le agrego un alto y ancho en base a mi necesidad -->
+    <iframe src="./contact.html" frameborder="0" width="500px" height="500px"></iframe> <!-- tambien puedo agregar un archivo html dentro de mi misma pagina -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yB4n_K7dZV8?si=qyUwYaHE06FngIOJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><!-- video agregado desde youtube, voy a compartir-incorporar y copio todo el iframe -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3295.3928504835853!2d-58.75977385130643!3d-34.31501338295869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb608ddd69ff5f%3A0x5cfb7549b22bec11!2sLibertad%20465%2C%20B1625CBI%20Bel%C3%A9n%20de%20Escobar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1738247690330!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><!-- para una direccion de google maps, busco la direccion, luego compartir,incorporar un mapa, copiar HTML y finalmente pego el iframe en mi pagina  -->
+</body>
+</html>
