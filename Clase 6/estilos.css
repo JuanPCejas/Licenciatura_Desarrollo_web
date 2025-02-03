@@ -1,0 +1,23 @@
+
+body{/* Selector de elementos */
+
+}
+
+h2{
+    color: rgb(242, 0, 255);
+    font-size: 50px;
+}
+
+.subtitulo-especial { /* aca es donde llamo a la clase para darle el estilo que quiero- la clase tiene mayor jerarquia que h2*/
+    color: green;
+    font-size: 80px;
+}
+
+*{/* Selector universal */
+    font-family: sans-serif; /
+}/* Con esto hago que toda mi pagina tenga la misma fuente */
+
+
+#super-especial{ /* selector de id, busca y aplica solo al mismo id */
+    color: aqua;
+} /*  */
