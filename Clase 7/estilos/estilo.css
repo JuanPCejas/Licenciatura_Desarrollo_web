@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{font-family: Poppins, sans-serif;} /* Con esto genero que toda mi paguina tenga toda la misma fuente */
+
+/* desde google fonts importo la fuente y la copio y pego desde @import. Tambien podria geneerar un archivo CSS con el nombre de la fuente, ir a la pagina de google fonts donde esta la fuente seleccionada, luego llamarla desde mi CSS donde edito el titulo con ./ */
+
+
+h1{
+    color: rgba(226, 101, 101, 0.778);
+} /* RGBA es la combinación de red-green-blue y A es la opacidad del color */
+
+h1{ font-size: 50px;} /* Utilizar medida de pixeles no las medidas standard */
+
+h1{letter-spacing: 1px;} /* espaciado entre letras, utilizar medidas de pixeles */
+
+h1{word-spacing: 7px;} /* Espaciado entre palabras */
+
+h1{text-decoration: underline red wavy;} /* Para decorar el texto puedo subrayarlo, elegir el color y el tipo de linea */
+
+h1{text-shadow: 200px 10px 3px rgba(228, 11, 11, 0.652);} /* esta etiqueta lleva orden, primer valor es unidad de tamaño en eje x, segunda unidad de tamaño en eje y (valor + se va hacia abajo), 3ra valor_difuminado y 4ta es color  - Puedo agregar mas de una sombra*/
+
+h1{background-color: black;} /* color de */
+
+h1{width: 200px;} /* Ancho de mi h1 */
+h1{height: 100px;} /* Alto de mi h1 */
+h1{text-align: center;} /* Alineacion de mi h1 */
+h1{font-family: Poppins, sans-serif;} /* Selecciono el tipo de fuente para mi h1, en caso que mi cpu no tenga verdana utilizara geneva y asi sucesivamente */
+
+h1{
+    font-weight:800 ;/* Ancho de la fuente, ver que valores soporta en google fonts la fuente seleccionada */
+}
+
+p{
+    font-weight: 700;
+}
+
+.parrafo{
+font-weight: 300;
+font-size: 12px;
+font-style: italic;
+line-height: 15px; /* es el espacio entre lineas */
+}
+
+
+.link

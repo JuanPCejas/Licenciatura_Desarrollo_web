@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{font-family: Poppins, sans-serif;
+    box-sizing: border-box;/* con esto evito que mi caja crezca por el padding y siempre se mantiene en el mismo tamaño seteado */} /* Selector universal, todo lo que hago aca aplica a toda la pagina */
+
+.caja{
+    background-color: black; 
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;/* propiedad para mover una caja, genera margen superior, si ingreso solo margin se moverá en todos los sentidos */
+    color: white;
+    padding-left: 80px; /* Con esto genero el espacio de mi caja y la h de hola pero me agranda la caja es decir me suma los 30px */
+   /* 
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px; 
+    padding-left: 10px;
+    Padding de diferentes medidas lo puedo escribir de esta forma pero gastaria muchas lineas de codigo por lo que puedo hacerlo de esta otra forma: Padding : 30px 10px 30px 10px primero arriba luego derecha, luego abajo y finalmente izquierda
+    
+    otra opcion es arriba abajo - derecha izquierda padding:30px ;10px;*/
+/* Lo mismo de padding aplica a margin */
+
+    border: 10px solid red; /* genera borde rojo en toda la caja para generar en diferentes lados de la caja utilizo border right,left,top,bottom y puedo dejar de utilizar solid y usar otro tipo de linea. */
+    margin-left: 200px;
+    display: inline-block;
+    }
+
+h1{background-color: brown;/* etiquetas de bloque ocupan todo el ancho de mi pagina */
+    }
+a{background-color: blue; 
+    display: inline-block;/* etiquetas en linea son las que se acomodan al texto ..ESTAS NO PUEDEN RECIBIR INDICACIONES DE ALTO Y ANCHO  si puedo agregar display y cambiar de tipon entre inline y block o inline-block*/
+    }
+
+input{
+width: 400px;        
+height: 200px;
+    }/* esta es en linea y en bloque, se le puede dar alto y ancho */
+
+header{
+    color: blue;
+
+}
+
+.logo{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+}
+nav{
+    text-align: center;
+}
+
+.link{
+        display: inline-block;
+        background-color:violet ;
+        width: 100px;
+        text-align: center;
+        height: 50px;
+}
