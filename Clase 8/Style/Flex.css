@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.padre{
+    background-color: green;
+    height: 100vh;/* viewport height - va a ocupar toda la pantalla es una medida relativa que va variando segun el tamaño de la pantalla*/
+    width: 100vw; /* viewport width es lo mismo que en el alto pero aplicado al ancho de pantalla */
+    display: flex; /* Con esta etiqueta activo FLEX */
+    flex-direction: row;/* defino la direccion en columna o una al lado de la otra 
+    row eje x
+    column eje y*/
+    gap: 50px; /* genera un espaciado entre los hijos */
+   /*  row-gap: 100px; espaciado entre objetos
+    column-gap: 50px;espacio entre columnas */
+    flex-wrap: wrap; /* al tener demasiados hijos/cajas con esta etiqueta logro que no se modifiquen los tamaños y coloque uno debajo del otro */
+    justify-content: center; /* con esto logro centrar en eje x - tengo opciones como spaced evenly (separa la distancia sobrante entre los choques de los objetos) y space between (separa la  distancia sobrante entre objetos) y space around (toma la distancia total la divide por cantidad de objetos y el resto lo usa en los laterales - ver imagenes adjuntas*/
+    align-items: end/* nos permite alinear en el eje y */
+
+
+    /* cuando estoy en modo flex direction row con justify content alineo en eje x y con align items en eje y. PEEERO cuando trabajo con flex direction column esto se invierte, en eje x ajusto con align items y en eje y con justify content*/
+}
+
+.padre .hijo{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+.padre .especial{/* coloco .padre.especial para obtener la misma especifidad que la opcion .padre . hijo con esto lo define la cascada */
+    background-color: red;
+}

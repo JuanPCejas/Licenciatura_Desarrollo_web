@@ -1,0 +1,35 @@
+*{/* Esto se conoce como normalización */
+    box-sizing: border-box;/* Con esta etiqueta hago que la caja sea de 200x200 sin aumentar el tamaño por el border, tambien aplica para padding */
+    margin: 0;/* Con esto logro que todo lo de la pagina no tenga los margenes que trae por defecto */
+    padding: 0;/* con esta etiqueta hago que lo que agrego no tenga padding por defecto, por ejemplo el texto de hola*/
+}
+
+body{
+    background-color:white ;
+}
+
+input{
+    margin-top: 50px;
+    margin-left: 50px;
+    border: none;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.221);
+    padding: 5px 18px;
+}
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.878);
+   /*  border-radius: 10px; */
+    /* border: 3px solid red;/* este borde me suma 3px de cada lado la caja quedaría de 206x206 */
+color: white;
+margin: 50px;
+margin-top: 50px;
+box-shadow:inset 0px 0px 3px 2px white;/* Agrego la sombra primero inset (Se calcula hacia adentro, si no coloco nada es hacia afuera) eje x - eje y - blur(disfuminado) - base - color */
+0px 0px 10px 0px white;/* Agrego otra sombra */
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+    -webkit-text-stroke: 1px black;/* Con esto dibujo el sombreado sobre el HOLA - Solamente funciona en chrome, mozilla no trae esta propiedad */
+}
